@@ -22,7 +22,7 @@ RUN   chown -R wildfly:wildfly /opt/app-root && \
 
 EXPOSE 8080
 
-USER  user1002
+USER  user1003
 
 # Run the fat JAR
 CMD   /opt/app-root/bin/run-app.sh
